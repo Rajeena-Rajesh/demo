@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validate Age</title>
+    <style>
+        .danger-color{
+            border:2px solid red;
+            background-color: aqua;
+            color:red;
+        }
+        .success-color{
+            border:2px solid green;
+            background-color: purple;
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="id_age" placeholder="enter the age">
+    <div id="result"></div>
+
+    <button id="age-btn">validate</button>
+
+    <script>
+        var ageButton=document.querySelector("#age-btn")
+        ageButton.addEventListener("click",validateAge)
+
+        function validateAge(){
+
+         let currentAge=document.querySelector("#id_age").value
+
+         let myDiv=document.querySelector("#result")
+
+
+         if(currentAge>18){
+            //console.log("valid")
+            myDiv.classList.add("danger-color")
+            myDiv.innerHTML="valid"
+
+         }else{
+            // console.log("invalid")
+            myDiv.classList.add("success-color")
+            myDiv.innerHTML="invalid"
+         }
+        
+
+
+        }
+    </script>
+</body>
+</html>

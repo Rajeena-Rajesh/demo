@@ -1,0 +1,28 @@
+/* selectors */
+
+/* 1.tag selectors 
+2.id selectors 
+3.class selectors  */
+
+h1{
+    color:blue;
+}
+
+#d1{
+color:blueviolet;
+}
+.cl{
+    color:red;
+}
+.c2{
+    background-color: purple;
+}
+.c3{
+    background-color:greenyellow; 
+}
+div{
+    background-color:cornflowerblue;
+}
+#d5{
+    background-color:darkmagenta;
+}

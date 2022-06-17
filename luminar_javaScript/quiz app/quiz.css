@@ -1,0 +1,17 @@
+.submit{
+    border-radius: 5px;
+    background-color: darkgreen;
+    width: 92px;
+    height: 29px;
+    color: white;
+    
+    margin-left: 39px;
+    margin-top: 20px;
+}
+.answer{
+  margin-bottom: 20px; 
+
+}
+ul{
+    list-style:none;
+}

@@ -1,0 +1,15 @@
+//throw
+var age=16
+
+//<18 error
+
+try{
+    if(age<18){
+        throw new error("age invali")
+    }
+}
+catch(e){
+    console.log(e.message)
+}
+console.log("stmt1")
+console.log("stmt2")

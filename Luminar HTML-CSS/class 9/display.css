@@ -1,0 +1,25 @@
+.row{
+    width:50%;
+    height:400px;
+    background-color: grey;
+    display :flex;
+    justify-content: space-evenly;
+}
+.col{
+    height:200px;
+    width:100px;
+  border:2px solid black;
+}
+
+.col1{
+background-color:blueviolet;
+}
+.col2{
+    background-color:cornsilk;
+}
+.col3{
+    background-color:blue;
+}
+.col4{
+    background-color: darkgreen;
+}

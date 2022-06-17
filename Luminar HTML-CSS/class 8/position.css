@@ -1,0 +1,17 @@
+div{
+    width:200px;
+    height:200px;
+    border:black 2px solid;
+
+
+}
+#b1{
+    background-color: blue;
+    position:absolute;
+    left:50%;
+}
+
+#b2{
+    background-color: red;
+    position:absolute;
+}

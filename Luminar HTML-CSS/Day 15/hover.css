@@ -1,0 +1,25 @@
+button{
+    height:40px;
+    width:80px;
+    border-radius:20px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+    height:45px;
+    width:85px;
+}
+h1{
+    color: blue;                                                                                                                                                                                                                                      
+}
+span{
+   color: darksalmon;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1595967444215-4901e8436909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=733&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
